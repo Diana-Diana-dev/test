@@ -37,7 +37,7 @@
                   <a href="" class="header__link">КОМАНДА</a>
               </li>
               <li>
-              <a href="" class="header__link">КОНТАКТЫ</a>
+              <a href="#1" class="header__link">КОНТАКТЫ</a>
               </li>
               <li>
               <a href="" class="header__link">БЛОГ</a>
@@ -47,7 +47,7 @@
           </nav>
 
           <div class="header__sign">
-            <a href="" class="header__sign_up">Записаться</a>
+            <a href="#popup_1" class="header__sign_up">Записаться</a>
            
           </div>
         </div>
@@ -65,7 +65,7 @@
         <div class="item_1">
           <p class="item_text1">Для тех, кто хочет научиться чему-то новому.</p>
            <div class="header__sign1">
-            <a href="" class="header__sign_up">Записаться</a>
+            <a href="#popup_1" class="header__sign_up">Записаться</a>
            
           </div>
         </div>
@@ -101,54 +101,54 @@
           <div class="ways">
             <div class="waysDudling">
               <div class="waysDudlingImg">
-                  <img src="pictures/Rectangle_13.png">
+                  <a href="dudling.html"><img src="pictures/Rectangle_13.png"></a>
               </div>
-              <h4 class="waysDudlingName">Дудлинг</h4>
+              <a href="dudling.html"><h4 class="waysDudlingName">Дудлинг</h4></a>
               <p class="waysDudlingText">Для всех уровней</p>
               <div class="waysDudlingBorder"></div>
             </div>
 
             <div class="paintsAnimals">
               <div class="paintsAnimalsImg">
-                  <img src="pictures/Rectangle_51.png">
+                  <a href="paintsanimals.html"><img src="pictures/Rectangle_51.png"></a>
               </div>
-              <h4 class="paintsAnimalsName">Акварельные зверушки</h4>
+              <a href="paintsanimals.html"><h4 class="paintsAnimalsName">Акварельные зверушки</h4></a>
               <p class="paintsAnimalsText">Для начинающих</p>
               <div class="paintsAnimalsBorder"></div>
             </div>
 
             <div class="oilPainting">
               <div class="oilPaintingImg">
-                 <img src="pictures/Rectangle_55.png">
+                 <a href="oilpainting.html"><img src="pictures/Rectangle_55.png"></a>
               </div>
-              <h4 class="oilPaintingImgName">Масляная живопись</h4>
+              <a href="oilpainting.html"><h4 class="oilPaintingImgName">Масляная живопись</h4></a>
               <p class="oilPaintingImgText">Для всех уровней</p>
               <div class="oilPaintingBorder"></div>
             </div>
 
             <div class="foodIllustration">
               <div class="foodIllustrationImg">
-                 <img src="pictures/Rectangle_48.png">
+                 <a href="foodillustration.html"><img src="pictures/Rectangle_48.png"></a>
               </div>
-              <h4 class="foodIllustrationName">Food-иллюстрация</h4>
+              <a href="foodillustration.html"><h4 class="foodIllustrationName">Food-иллюстрация</h4></a>
               <p class="foodIllustrationText">Для начинающих</p>
               <div class="foodIllustrationBorder"></div>
             </div>
 
             <div class="vocalLessons">
               <div class="vocalLessonsImg">
-                 <img src="pictures/Rectangle_52.png">
+                 <a href="vocals.html"><img src="pictures/Rectangle_52.png"></a>
               </div>
-              <h4 class="vocalLessonsName">Уроки вокала</h4>
+              <a href="vocals.html"><h4 class="vocalLessonsName">Уроки вокала</h4></a>
               <p class="vocalLessonsText">Для всех уровней</p>
               <div class="vocalLessonsBorder"></div>
             </div>
 
             <div class="music">
               <div  class="musicImg">
-                  <img src="pictures/Rectangle_56.png">
+                  <a href="music.html"><img src="pictures/Rectangle_56.png"></a>
               </div>
-              <h4 class="musicName">Электронная музыка</h4>
+              <a href="music.html"><h4 class="musicName">Электронная музыка</h4></a>
               <p class="musicText">Для всех уровней</p>
               <div class="musicBorder"></div>
             </div>
@@ -177,7 +177,7 @@
                       </p>
 
                      <div class="header__sign2">
-                       <a href="" class="header__sign_up">Записаться</a>
+                       <a href="#popup_1" class="header__sign_up">Записаться</a>
                      </div>                   
                 </div>
             </div>
@@ -340,7 +340,9 @@
 
 
     <footer class="footer">
-      <div class="footerTable">
+      <a name='1'></a>
+      <div  class="footerTable">
+
         <div class="footerTablePhone">
           <p class="footerTablePhone1">Позвони нам</p>
           <p class="footerTablePhone2">+38 (050)-752-73-08</p>
@@ -372,6 +374,53 @@
     </footer>
 
 	</div>
+
+
+
+<div id="popup_1" class="popup">
+      <a href="#header" class="popup__area"></a>  <!-- для закрытия формы, кликом на свободное место. -->
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#header" class="popup__close"><img src="https://diana-diana-dev.github.io/Help_animals/pictures/iconX.png"></a>
+          <div class="popup__title"></div>
+          <div class="popup__text"><form action="index.html" method="post">
+     <h3 class="forma__title">Оставьте свои данные и мы обязательно с Вами свяжемся!</h3>
+     <div class="forma__line"></div>
+    
+     <!-- <label for="name">Имя</label> -->
+     <input type="text" id="name" name="username" tabindex="1" placeholder="Имя">
+     <!-- <label for="tel">Контактный Номер Телефона</label> -->
+     <input type="tel" id="tel" name="username" tabindex="2" placeholder="Контактный Номер Телефона" required="" pattern="+380" maxlength="" minlength="">
+     
+     
+     <button class="btn" type="submit">Записаться</button>
+
+    <!--  <a href="#popup_11"><img class="btn-otpr" src="https://diana-diana-dev.github.io/Help_animals/pictures/normal_11.png"></a> -->
+  
+  </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div id="popup_11" class="popup-submit">
+      <a href="#header" class="popup-submit__area"></a>  <!-- для закрытия формы, кликом на свободное место. -->
+      <div class="popup-submit__body">
+        <div class="popup-submit__content">
+          <a href="#header" class="popup-submit__close"><img src="https://diana-diana-dev.github.io/Help_animals/pictures/iconX.png"></a>
+          <div class="popup-submit__title">Успешно отправлено</div>
+          <div class="popup-submit__text">
+              <a href="#header"><img src="https://diana-diana-dev.github.io/Help_animals/pictures/Vector.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
 </body>
