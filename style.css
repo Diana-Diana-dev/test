@@ -924,6 +924,7 @@ cursor: pointer;
 
 .buttonText:hover{
   transform: scale(1.2) translateX(8px);
+  transition: 0.3s;
 }
 
 
