@@ -629,12 +629,14 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
 border: 1px solid #212121;
 }
 
+.tableTeachers a:focus{
+  background: radial-gradient( #EC4E20 1%, rgba(245, 198, 29, 0) 100%, rgba(196, 196, 196, 0) 100%);
+}
+
 .tableTeachers a{
   text-decoration: none;
 }
-.tableTeachers a:hover{
-  background: radial-gradient( #EC4E20 1%, rgba(245, 198, 29, 0) 100%, rgba(196, 196, 196, 0) 100%);
-}
+
 .description{
   grid-column-start: 2;
   grid-column-end: 3;
@@ -657,6 +659,9 @@ align-items: center;
 padding-left: 36px;
 }
 
+
+
+
 .tableTeachers_2{
 font-family: Noto Sans;
 font-style: normal;
@@ -671,6 +676,8 @@ display: flex;
 align-items: center;
 padding-left: 36px;
 }
+
+
 
 .tableTeachers_3{
 font-family: Noto Sans;
@@ -687,6 +694,8 @@ align-items: center;
 padding-left: 36px;
 }
 
+
+
 .tableTeachers_4{
 font-family: Noto Sans;
 font-style: normal;
@@ -701,6 +710,8 @@ display: flex;
 align-items: center;
 padding-left: 36px;
 }
+
+
 
 .description{
   display: flex;
@@ -892,31 +903,41 @@ color: #212121;
   width: 50%;
 }
 
-.button{
-display: flex;
-width: 213px;
-height: 48px;
-border: 1px solid #212121;
-box-sizing: border-box;
-justify-content: center;
-margin-top: 33px;
-}
 
 .buttonText{
+ display: flex; 
 font-family: Noto Sans;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 162.2%;
-display: flex;
 align-items: center;
 text-align: center;
-
+border: 1px solid #212121;
 color: #212121;
-text-decoration: none;
+padding: 10px 20px;
+margin-top: 33px;
+cursor: pointer;
+
 
 }
 
+.buttonText:hover{
+  transform: scale(1.2) translateX(8px);
+}
+
+
+#more{
+  display: none;
+}
+
+#more2{
+  display: none;
+}
+
+#more3{
+  display: none;
+}
 
 
 .blogTable_02Name{
@@ -2423,24 +2444,6 @@ margin-bottom: 27px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .popup{
   position: fixed;
   width: 100%;
@@ -2750,5 +2753,4 @@ display: flex;
 justify-content: center;
 padding-bottom: 60px;
 }
-
 
