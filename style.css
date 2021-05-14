@@ -796,46 +796,133 @@ margin-bottom: 36px;
 .logo9{
   max-width: 292px;
   max-height: 122px; 
+  display: inline-block;
+  overflow: hidden;
 }
+.logo9 img{
+  transition: 1s;
+  display: block;
+}
+.logo9 img:hover{
+  transform: scale(1.2);
+}
+
 
 .logo1{
   max-width: 178px;
   max-height: 127px; 
+  display: inline-block;
+  overflow: hidden;
 }
+.logo1 img{
+  transition: 1s;
+  display: block;
+}
+.logo1 img:hover{
+  transform: scale(1.2);
+}
+
 
 .logo4{
   max-width: 281px;
   max-height: 97px; 
+  display: inline-block;
+  overflow: hidden;
 }
+.logo4 img{
+  transition: 1s;
+  display: block;
+}
+.logo4 img:hover{
+  transform: scale(1.2);
+}
+
+
 
 .logo2{
   max-width: 214px;
   max-height: 79px; 
+  display: inline-block;
+  overflow: hidden;
 }
+.logo2 img{
+  transition: 1s;
+  display: block;
+}
+.logo2 img:hover{
+  transform: scale(1.2);
+}
+
 
 .logo3{
   max-width: 170px;
   max-height: 93px; 
+  display: inline-block;
+  overflow: hidden;
+}
+.logo3 img{
+  transition: 1s;
+  display: block;
+}
+.logo3 img:hover{
+  transform: scale(1.2);
 }
 
 .logo5{
   max-width: 267px;
   max-height: 67px; 
+  display: inline-block;
+  overflow: hidden;
 }
+.logo5 img{
+  transition: 1s;
+  display: block;
+}
+.logo5 img:hover{
+  transform: scale(1.2);
+}
+
 
 .logo6{
   max-width: 263px;
   max-height: 150px; 
+  display: inline-block;
+  overflow: hidden;
+}
+.logo6 img{
+  transition: 1s;
+  display: block;
+}
+.logo6 img:hover{
+  transform: scale(1.2);
 }
 
 .logo8{
   max-width: 233px;
   max-height: 37px; 
+  display: inline-block;
+  overflow: hidden;
+}
+.logo8 img{
+  transition: 1s;
+  display: block;
+}
+.logo8 img:hover{
+  transform: scale(1.2);
 }
 
 .logo7{
   max-width: 115px;
   max-height: 114px; 
+  display: inline-block;
+  overflow: hidden;
+}
+.logo7 img{
+  transition: 1s;
+  display: block;
+}
+.logo7 img:hover{
+  transform: scale(1.2);
 }
 
 .blogName{
