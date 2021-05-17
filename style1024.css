@@ -1,0 +1,92 @@
+@media screen and (max-width: 1023px){
+.wrapper{
+  
+  max-width: 1024px;
+  padding-right: 100px;
+  padding-left: 100px;
+
+}
+.picture_yellow{
+  width: 500px;
+  height: 500px;
+  
+}
+
+.picture_orange{
+ width: 500px;
+ height: 500px;
+
+}
+
+
+.header__list li {
+  margin: 0px 0px 0px 30px;
+
+  
+}
+
+.header__link{
+
+font-size: 24px;
+line-height: 133.2%;
+}
+
+.h1{
+font-size: 43px;
+line-height: 120%;
+margin-bottom: 50px;
+padding-right: 7%;
+}
+
+.chooseWay_H2{
+
+font-size: 45px;
+line-height: 136%;
+margin-top: 70px;
+margin-bottom: 30px;
+padding-right: 7%;
+}
+
+.chooseWay_text{
+
+font-size: 24px;
+line-height: 162.2%;
+text-transform: capitalize;
+margin-bottom: 30px;
+}
+
+.ourTeam{
+
+font-size: 43px;
+line-height: 140%;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+.courses{
+font-size: 45px;
+line-height: 136%;
+margin-top: 60px;
+margin-bottom: 30px; 
+}
+
+.coursesText{
+font-size: 24px;
+line-height: 162.2%;
+margin-bottom: 30px;
+}
+
+
+.blogName{
+
+font-size: 45px;
+line-height: 162.2%;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+.blogTable{
+  margin-bottom: 60px;
+  
+}
+
